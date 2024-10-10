@@ -1,0 +1,168 @@
+* {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 15vw;
+    background-color: #1f2937;
+}
+
+nav ul{
+    display: flex;
+    color: #f9faf8;
+}
+
+li {
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.hero {
+        display: flex;
+        padding: 15vh 15vw;
+        background-color: #1f2937;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    padding: 8px 40px;
+    border: none;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.hero-left > * {
+    margin-bottom: 15px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 15vw;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.benefits-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.benefits h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.img-border {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.benefit {
+    flex: 0;
+}
+
+.benefit p {
+    text-align: center;
+    line-height: 1.2;
+    color: #585858;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 15vh 22vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 1.4;
+}
+
+#author {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.CTA {
+    padding: 13vh 15vw;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 160px;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 6vh 15vw;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.cta-left h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.cta-left p {
+    font-size: 24px;
+    color: #f9faf8d3;
+}
+
+.cta-right button {
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 24px;
+}
